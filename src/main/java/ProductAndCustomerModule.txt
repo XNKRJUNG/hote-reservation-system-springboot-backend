@@ -1,0 +1,17 @@
+Product Module APIs
+
+1. Add product:
+    localhost:8080/api/v1/products
+    JSON data:
+        {
+          "name": "Queen Room1",
+          "night_rate": 500.99,
+          "description": "A wonderful product description.",
+          "number_of_beds": 1,
+          "excerpt": "Short description of the product.",
+          "type": "ROOM",
+          "availability": true
+        }
+
+
+Customer Module APIs

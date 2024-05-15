@@ -1,0 +1,21 @@
+Auth module apis
+1. login -localhost:8000/api/auth/login
+json data:
+{
+    "userName": "alawro",
+    "userPass": "123456789"
+}
+
+2. signup - localhost:8000/api/auth/signup
+json data:
+{
+    "firstName":"Amanuel",
+    "lastName":"Lawro",
+    "email":"alawro@miu.edu",
+    "phone_num":"4698945404",
+    "user":{
+        "userName":"alawro",
+        "userPass":"123456789",
+        "userType":"ADMIN"
+    }
+}
